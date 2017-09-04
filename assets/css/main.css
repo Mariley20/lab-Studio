@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+/* titulo y subtitulo */
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15%;
+}
+
+.section-subtitle {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    padding-bottom: 6%;
+}
+
+
+/*section home / navbar*/
+
+#home {
+    background: url('../img/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#home .navbar-toggle {
+    font-size: 12px;
+    padding: 13px;
+    color: #fff;
+    background-color: #fed136;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-home {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20% 0;
+}
+
+.text-home h2 {
+    font-size: 28px;
+    font-family: 'Droid Serif';
+    font-style: italic;
+}
+
+.text-home h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-home {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: #fff;
+    border-color: #fed136;
+    background-color: #fed136;
+}
+/*section services*/
+
+#services {
+    text-align: center;
+}
+
+.fa-circle {
+    color: #fed136;
+}
+
+.fa-lg {
+    font-size: 5em;
+}
+
+
+/* section portfolio*/
+#portfolio, #team{
+	background: #f8f9fa;
+}
+.portfolio-caption{
+	padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.portfolio-caption h4, #team .col-sm-4 h4{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*section about*/
+.aling-right h4,
+.aling-right p {
+    text-align: right;
+}
+
+.aling-right img {
+    float: right;
+}
+
+.aling-left h4,
+.aling-left p {
+    text-align: left;
+}
+.aling-left img {
+    float: left;
+}
+
+.aling-left img,
+.aling-right img {
+    border: 10px solid #f1f1f1;
+    border-radius: 100%;
+    width: 20%;
+}
+.circle-text{
+	border-radius: 100%;
+    background: #fed136;
+    width: 16%;
+    height: auto;
+    padding: 25px;
+    border: 5px solid #ccc;
+}
+/*section Team*/
+#team .col-sm-4 img{
+	padding: 10px;
+	background: #fff;
+	border-radius: 100%;
+}
+.btn-social .fa-circle {
+    color: #000000;
+}
+
+.btn-social .fa-lg {
+    font-size: 2em;
+}
